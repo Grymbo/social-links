@@ -100,3 +100,10 @@ button:hover {
         padding: 15rem;
     }
 }
+@media (min-width: 1024px){
+    .card {
+        max-width: 400px;
+        margin: 35rem auto;
+        padding: 10rem;
+    }
+}
