@@ -65,9 +65,17 @@ h3 {
 button {
     font-weight: 700;
     border-radius: 0.8rem;
-    padding: 1.2rem;
+    padding: 2rem 0rem;
     background-color: var(--gray700);
     color: var(--white1);
+    width: 100%;
+    margin: 1.5rem 3.5rem;
+    border: solid 0px var(--gray700);
+    transition: background-color 0.5s;
+}
+button:hover {
+    background-color: var(--green1);
+    color: var(--gray900);
 }
 
 /********************** Card ****************************************/
