@@ -63,3 +63,11 @@ button {
     background-color: var(--gray700);
     color: var(--white1);
 }
+
+/********************** Card ****************************************/
+.card {
+    border-radius: 1.2rem;
+    background-color: var(--gray800);
+    padding: var(--300);
+    margin: 30rem 10rem;
+}
